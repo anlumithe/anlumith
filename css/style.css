@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+body {
+	background-image: url(../images/1_kreda.jpg);
+ }
+ 
+.text-body {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #f0f0f0;
+    font-family: "Ubuntu","Courier New","Courier";
+    font-size: 1.75em;
+    font-weight: 500;
+    height: 250px;
+    line-height: 1.4em;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 #000;
+    transition: all 0.5s ease-out 0s;
+}
+
+.text-editor-wrap {
+    border-radius: 10px;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.8);
+    clear: both;
+    display: block;
+    margin: auto;
+    max-width: 530px;
+    overflow: hidden;
+    transition: all 0.5s ease-out 0s;
+}
+
+.title-bar {
+    background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(center top , #e8e8e8, #bcbbbc);
+    border-bottom: 1px solid #6a6a6a;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7) inset;
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 0.75em;
+    padding: 5px 0;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
