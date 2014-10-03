@@ -63,3 +63,11 @@ body {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-color-black{
+    color: #ffffff;
+}
