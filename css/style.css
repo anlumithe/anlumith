@@ -68,6 +68,11 @@ body {
     background-color: #ffffff;
 }
 
-.text-color-black{
+.text-color-white{
     color: #ffffff;
+    text-align: justify;
+}
+
+.text-color-red{
+    color: #ff0000;
 }
