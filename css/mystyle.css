@@ -6,3 +6,8 @@
     height: 57%;
     max-width: 50%;
 }
+
+
+.img-left{
+    float:left;
+}
