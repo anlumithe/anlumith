@@ -24,8 +24,8 @@ body {
 }
 
 .text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
+    margin top: 20;
+    padding top: 10;
     font-size: 4.5em;
     font-weight: 700;
 }
@@ -166,7 +166,22 @@ hr.small {
 /* About */
 
 .about {
-    padding: 50px 0;
+  display: block;
+  background: #CFF;
+  height:75%;
+  width:100%;
+  padding: 60px;
+  padding-left: 120px;
+  box-sizing:border-box;
+}
+
+.about h1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about p{
+  padding: 5%;
 }
 
 /* Services */
