@@ -5,20 +5,22 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="IT Support Stuttgart - Computerfreaks">
     <meta name="author" content="">
 
     <title>Anlumith - Computerfreaks Stuttgart</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Template CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+    <!--Scroling effects CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- My Custom CSS -->
@@ -76,71 +78,75 @@
     <section id="about" class="about bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>Sie machen ihre Arbeit, wir kümmern uns um Ihren Computer</h1>
+                <div class="col-lg-12 text-center"  data-AOS="fade-up">
+                    <h2>Sie machen ihre Arbeit, wir kümmern uns um Ihren Computer</h2>
                 </div>
             </div>
             <!-- /.row -->
-            <div class="row">
+            <div class="row"  data-AOS="fade-up">
                 <div class="col-lg-12 text-left">
-                    <h4>Die IT stellt auch für kleinere und mittlere Unternehmen zunehmend einen strategischen Erfolgsfaktor dar. Gerade kleine und mittlere Unternehmen vernachlässigen die Funktionsfähigkeit und die Sicherheit ihrer IT Infrastruktur. Und genau da sehen wir usere Stärke! Wir sind Computerfreaks, die für kleine und mittelständische Firmen maßgeschneiderte IT-Lösung anbieten. ANLUMITH mach IT für Sie : einfach, vertraulich und kostengünstig !<br><br></h4>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h4>Um Ihnen den Einstieg in die IT- Themen zu erleichtern, haben wir drei Pakete für Sie gebildet:</h4><br>
+                    <h5>Die IT stellt auch für kleinere und mittlere Unternehmen zunehmend einen strategischen Erfolgsfaktor dar. Gerade kleine und mittlere Unternehmen vernachlässigen die Funktionsfähigkeit und die Sicherheit ihrer IT Infrastruktur. Und genau da sehen wir usere Stärke! Wir sind Computerfreaks, die für kleine und mittelständische Firmen maßgeschneiderte IT-Lösung anbieten. ANLUMITH mach IT für Sie : einfach, vertraulich und kostengünstig !<br><br></h5>
                 </div>
             </div>
 
       </section>
-      
-      <section id="pakets" >
-            <div class="row">
 
-
-                <div class="col-lg-4 text-left">
-                    <h1 class="text-left">Paket MustDo!</h1>
-                    <h3 class="text-left">Diese Themen müssen Sie angehen</h3>
-
-                    <ul class="text-left">
-                        <li>IT Security / Netzwerk / VPN</li>
-                        <li>Virescan </li>
-                        <li>Datenbackup</li>
-                    </ul>
-
-                </div>
-
-                <div class="col-lg-4 text-left">
-                    <h1 class="text-left">Paket ShouldDo!</h1>
-                    <h3 class="text-left">Diese Themen sollten Sie angehen</h3>
-
-                    <ul class="text-left">
-                        <li>IT Security / Netzwerk / VPN</li>
-                        <li>Virescan </li>
-                        <li>Datenbackup</li>
-                    </ul>
-
-                </div>
-
-                <div class="col-lg-4 text-left">
-                    <h1 class="text-left">Paket CouldDo!</h1>
-                    <h3 class="text-left">Themen für Kunden mit besonderen Anforderungen</h3>
-
-                    <ul class="text-left">
-                        <li>Excange Server</li>
-                        <li>Cloud Comupting</li>
-                        <li>Database Support</li>
-                        <li>Application Support</li>
-                        <li>License Management</li>
-                    </ul>
-
-                </div>
-
+<!-- Paket -->
+      <section id="pakets" class="paket">
+        <div class="row">
+            <div class="col-lg-12 text-center"  data-AOS="fade-up">
+                <h3>Um Ihnen den Einstieg in die IT- Themen zu erleichtern, haben wir drei Pakete für Sie gebildet:</h3><br>
             </div>
-
         </div>
+        <div class="row" style="padding-top: 5%"  data-AOS="fade-up">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Paket MustDo!</h3>
+                <p class="card-subtitle">Diese Themen müssen Sie angehen:</p>
+                <ul class="card-text">
+                    <li>IT Security / Netzwerk / VPN</li>
+                    <li>Virescan </li>
+                    <li>Datenbackup</li>
+                </ul>
+                <a href="#" class="btn btn-dark" style="margin-top: 28%">Mehr erfahren!</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Paket ShouldDo!</h3>
+                <p class="card-subtitle">Diese Themen sollten Sie angehen:</p>
+                <ul class="card-text">
+                    <li>IT Security / Netzwerk / VPN</li>
+                    <li>Virescan </li>
+                    <li>Datenbackup</li>
+                </ul>
+                <a href="#" class="btn btn-dark" style="margin-top: 28%">Mehr erfahren!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Paket CouldDo!</h3>
+                <p class="card-subtitle">Themen für Kunden mit besonderen Anforderungen:</p>
+                <ul class="card-text">
+                    <li>Excange Server</li>
+                    <li>Cloud Comupting</li>
+                    <li>Database Support</li>
+                    <li>Application Support</li>
+                    <li>License Management</li>
+                </ul>
+                <a href="#" class="btn btn-dark" style="margin-top: 5%">Mehr erfahren!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
         <!-- /.container -->
     </section>
 
@@ -148,11 +154,11 @@
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
+            <div class="row text-center"  data-AOS="fade-up">
+                <div class="col-lg-12">
                     <h2>Was bieten wir</h2>
                     <hr class="small">
-                    <div class="row">
+                    <div class="row"  data-AOS="fade-up">
 
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -221,8 +227,8 @@
     <!-- Callout -->
     <aside class="callout">
          <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center text-color-white">
+            <div class="row"  data-AOS="fade-up">
+                <div class="col-lg-12 text-color-white">
 
                     <h2>Wahrscheinlich gibt es nichts Aufregenderes für das menschliche Herz als das Gefühl des Computerfreaks, der miterlebt, wie das Werk seines Geistes sich erfolgreich entfaltet. Durch derlei Gefühle vergisst man Essen, Schlaf, Freunde, Liebe, einfach alles.</h2>
 
@@ -236,7 +242,7 @@
 
 
     <!-- Map -->
-    <section id="contact" class="map">
+    <section id="contact" class="map"  data-AOS="fade-up">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
         <small>
@@ -248,8 +254,8 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+            <div class="row"  data-AOS="fade-up">
+                <div class="col-lg-12 text-center">
                     <h4><strong>Anlumith.com</strong>
                     </h4>
                     <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
@@ -257,16 +263,13 @@
                         <li><i class="fa fa-phone fa-fw"></i> (+49) 711 456-7890</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@anlumith.com">name@anlumith.com</a>
                         </li>
+                        <li style="padding-top: 2%">
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
                     </ul>
                     <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Anlumith.com 2014</p>
                 </div>
@@ -274,16 +277,20 @@
         </div>
     </footer>
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/typed.js"></script>
 
 
-
-
+    <!--Aos initalizaiton -->
+    <script>
+      AOS.init();
+    </script>
 
 
 
